@@ -9,9 +9,8 @@ import lombok.*;
 @NoArgsConstructor
 @Data
 public class UserPassword {
+
     @Id
     private String email;
     private String password;
-
-
 }

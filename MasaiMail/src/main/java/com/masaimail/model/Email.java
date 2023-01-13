@@ -14,7 +14,7 @@ public class Email {
    @Id
    @GeneratedValue(strategy = GenerationType.AUTO)
    private Long id;
-   private String sendTo;
-   private String receivedFrom;
+   private String To;
+   private String From;
    private boolean starred = false;
 }
